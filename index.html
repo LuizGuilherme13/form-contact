@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Contato</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/media.css" />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Entre em Contato Comigo</h1>
+      <i class="fa-regular fa-comments fa-2x" style="color: #fff"></i>
+    </header>
+
+    <main>
+      <form action="#">
+        <div>
+          <label for="name" id="lname">Nome</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Seu nome completo"
+          />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@email.com"
+          />
+        </div>
+
+        <div>
+          <label for="message">Deixe sua mensagem</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="8"
+            placeholder="Opa tenho um servicinho pra tu."
+          ></textarea>
+        </div>
+
+        <button type="submit">
+          <i class="fa-regular fa-paper-plane"></i>
+          Enviar
+        </button>
+      </form>
+
+      <span>Ou</span>
+
+      <section id="socials">
+        <a href="https://github.com/LuizGuilherme13" target="_blank">
+          <i class="fa-brands fa-github fa-2x" style="color: #000"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/luiz-guilherme-barbosa-de-souza/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin fa-2x" style="color: #000"></i>
+        </a>
+
+        <a href="">
+          <i class="fa-brands fa-facebook fa-2x" style="color: #000"></i>
+        </a>
+
+        <a href="">
+          <i class="fa-brands fa-instagram fa-2x" style="color: #000"></i>
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <span>
+        &copy; Luiz Guilherme Barbosa de Souza - Todos os direitos reservados.
+      </span>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

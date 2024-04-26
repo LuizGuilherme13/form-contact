@@ -1,0 +1,64 @@
+main {
+  /* min-height: 85%; */
+  /* background-color: red; */
+  margin-bottom: 1.3em;
+}
+
+main form {
+  border: 2px solid #a9a9a9;
+  border-bottom-left-radius: 0.3em;
+  border-bottom-right-radius: 0.3em;
+  padding: 1em;
+  font-size: 1.1em;
+}
+
+main form div {
+  margin-bottom: 0.8em;
+}
+
+input,
+textarea {
+  width: 100%;
+  border-radius: 0.3em;
+  font-size: 0.9em;
+  border: 1px solid #a9a9a9;
+}
+input {
+  height: 2.4em;
+  padding-left: 0.5em;
+}
+
+textarea {
+  padding: 0.6em;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+button {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  border-radius: 0.3em;
+  margin-top: 1em;
+  font-size: 1.2em;
+  padding: 0.3em;
+  cursor: pointer;
+  margin-bottom: 0.8em;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+main span {
+  font-weight: 600;
+}
+
+main #socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
